@@ -1,8 +1,8 @@
 # are anime girls real?
 
-this is a game where a man from ottoman called osman tries to prove the world that anime girls are real and fights against enemies! make osman feel the glory of the victory!! THE REAL POWER BELONGS TO OTTOMAN AND ANIME GIRLS!
+Step into the world of Ottoman with Osman, as he battles enemies to prove that anime girls are real in this exciting game! Join him on his quest to victory and experience the true power of Ottoman and anime girls.
 
-note: there is no exe version for now, please use animekizigercekmi.py to play the game. all copyrights belong to me. you need to download python 3.8 to play this game and you need a code editor to run it. you will be able to play it without downloading any other things when i upload the exe version. i'll be debugging and redesigning the game for a better experience. also currently there are both english and turkish language options.
+While the exe version is still in development, you can still play the game using animekizigercekmi.py. As the sole owner of the copyrights, I assure you of a thrilling experience. To play the game, you'll need to download Python 3.8 and use a code editor. I'm currently working on debugging and redesigning the game for an even better experience. The game is available in both English and Turkish languages. Stay tuned for more updates!
 
 in-game captures:
 
