@@ -4,7 +4,7 @@ Step into the world of Ottoman with Osman, as he battles enemies to prove that a
 
 While the exe version is still in development, you can still play the game using animekizigercekmi.py. As the sole owner of the copyrights, I assure you of a thrilling experience. To play the game, you'll need to download Python 3.8 and use a code editor. I'm currently working on debugging and redesigning the game for an even better experience. The game is available in both English and Turkish languages. Stay tuned for more updates!
 
-note: my instagram account is now umayxart
+note: my instagram account is now umaixart
 
 in-game captures:
 
