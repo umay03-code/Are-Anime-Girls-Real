@@ -1,0 +1,60 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Audio;
+public class UIManager : MonoBehaviour
+{
+    private AudioSource audioSource;
+
+    [SerializeField] private AudioClip audioClip;
+
+    public AudioSource music;
+
+    public Slider volumeSlider;
+
+    public GameObject panel1, panel2, panel3;
+
+    [SerializeField] private GameObject[] PanelArray;
+
+    int x = 0;
+
+    void Start()
+    {
+
+        audioSource = GetComponent<AudioSource>();
+
+        panel1.SetActive(true);
+        panel2.SetActive(false);
+        panel3.SetActive(false);
+
+        x = 0;
+    }
+
+    public void ButtonMethod()
+
+    {
+
+        if (x >= PanelArray.Length) { return; } 
+
+        PanelArray[x].gameObject.SetActive(false);
+
+        PanelArray[x + 1].gameObject.SetActive(true);
+
+        x++;
+
+        if (x == 2) { audioSource.PlayOneShot(audioClip); }
+        
+
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void Volume()
+    { 
+        music.volume = volumeSlider.value;
+    }
+}
